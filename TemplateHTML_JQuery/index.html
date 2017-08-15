@@ -14,11 +14,23 @@
     <script src="lib/jquery/jquery-3.2.1.min.js"></script>
     <script>
         $(document).ready(function () {
-            alert("Ready")
+            var data = {};
+            data.msg = "Welcome to my page";
+            $.ajax({
+                url: "http://service.bielecki.ru/test/index.php",
+                method: "POST",
+                data: data,
+                success: function (data) {
+                    $(".result").text(data.guid);
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    $(".result").text("Error");
+                }
+            });
         });
     </script>
 </head>
 <body>
-    <h1>Шаблон HTML страницы с JQuery</h1>
+    <h1 class="result">Шаблон HTML страницы с JQuery</h1>
 </body>
 </html>
