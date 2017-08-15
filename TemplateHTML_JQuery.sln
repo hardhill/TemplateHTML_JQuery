@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "TemplateHTML_JQuery", "TemplateHTML_JQuery\TemplateHTML_JQuery.phpproj", "{DE91E770-B7AF-4B89-A44A-84D13C972482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE91E770-B7AF-4B89-A44A-84D13C972482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE91E770-B7AF-4B89-A44A-84D13C972482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D9BA749-4BD3-454F-96B1-C2784B01C766}
+	EndGlobalSection
+EndGlobal

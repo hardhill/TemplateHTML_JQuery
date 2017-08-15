@@ -1,0 +1,31 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>TemplateHTML_JQuery</Name>
+    <ProjectGuid>de91e770-b7af-4b89-a44a-84d13c972482</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>TemplateHTML_JQuery</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\jquery\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\mystyle.css" />
+    <Content Include="index.html" />
+    <Content Include="lib\jquery\jquery-3.2.1.min.js" />
+  </ItemGroup>
+</Project>
